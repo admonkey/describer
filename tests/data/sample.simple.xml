@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Data>
+	<Record>
+		<SAMPLE>
+			<TITLE>Superior Title</TITLE>
+			<AUTH>
+				<FNAME>John</FNAME>
+				<DISPLAY>No</DISPLAY>
+			</AUTH>
+			<AUTH>
+				<FNAME>Jane</FNAME>
+				<DISPLAY>No</DISPLAY>
+			</AUTH>
+                        <ABSTRACT/>
+		</SAMPLE>
+	</Record>
+	<Record>
+		<SAMPLE>
+			<TITLE>Interesting Title</TITLE>
+			<AUTH>
+				<FNAME>John</FNAME>
+				<DISPLAY>No</DISPLAY>
+			</AUTH>
+			<ABSTRACT/>
+		</SAMPLE>
+		<SAMPLE>
+			<TITLE>Another Title</TITLE>
+			<AUTH>
+				<FNAME>Jane</FNAME>
+				<DISPLAY>No</DISPLAY>
+			</AUTH>
+			<ABSTRACT/>
+		</SAMPLE>
+	</Record>
+</Data>
