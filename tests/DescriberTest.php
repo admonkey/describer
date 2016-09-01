@@ -22,7 +22,7 @@ class DescriberTest extends PHPUnit_Framework_TestCase
 
     $actual   = $xts->describe($xml);
 
-    $this->assertSame($expected, serialize($actual));
+    $this->assertEquals(unserialize($expected), $actual);
   }
 
 }
