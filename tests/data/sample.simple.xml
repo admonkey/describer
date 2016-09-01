@@ -4,6 +4,7 @@
 	<Record>
 		<SAMPLE>
 			<TITLE>Superior Title</TITLE>
+                        <SUBTITLE>Sub Title</SUBTITLE>
 			<AUTH>
 				<FNAME>John</FNAME>
 				<DISPLAY>No</DISPLAY>
