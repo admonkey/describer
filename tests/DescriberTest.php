@@ -17,12 +17,12 @@ class DescriberTest extends PHPUnit_Framework_TestCase
   public function testCanDescribeXML($table)
   {
     $xml      = file_get_contents(__DIR__."/data/$table.simple.xml");
-    $expected = file_get_contents(__DIR__."/data/$table.serialized.php");
+    $expected = require(__DIR__."/data/$table.expected.php");
     $xts      = new Describer();
 
     $actual   = $xts->describe($xml);
 
-    $this->assertEquals(unserialize($expected), $actual);
+    $this->assertEquals($expected, $actual);
   }
 
 }

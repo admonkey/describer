@@ -1,6 +1,6 @@
 <?php
 
-$result = [
+return [
 
   "Data" => [
     "max_count" => 1,
@@ -47,6 +47,3 @@ $result = [
   ]
 
 ];
-
-// print_r($result);
-print(serialize($result));
