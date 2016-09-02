@@ -16,7 +16,7 @@ class DescriberTest extends PHPUnit_Framework_TestCase
    */
   public function testCanDescribeXML($table)
   {
-    $xml      = file_get_contents(__DIR__."/data/$table.simple.xml");
+    $xml      = file_get_contents(__DIR__."/data/$table.xml");
     $expected = require(__DIR__."/data/$table.expected.php");
     $xts      = new Describer();
 
