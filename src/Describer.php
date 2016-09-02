@@ -54,9 +54,6 @@ class Describer
 
     $this->countArrayElements($array['value'], $result[$root]["elements"]);
 
-    // for debugging purposes
-    print_r($result);
-
     return $result;
 
   }
